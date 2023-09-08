@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortener</title>
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bgColor: '#21253f',
+                        textLeftColor: '#62b9fa',
+                        textRightColor: '#e422ea',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body class="bg-bgColor">
+    <header>
+        <h1 class="text-center text-2xl lg:text-3xl py-4 font-bold bg-gradient-to-r from-textLeftColor to-textRightColor"><i class="fa-solid fa-link fa-beat"></i> URL SHORTENER</h1>
+        <p class="text-white text-center pt-5 pb-3">- MOST SECURE -</p>
+        <h1 class="text-xl md:text-3xl lg:text-4xl font-bold text-white text-center lg:my-4 md:my-4 my-2">The <span class="bg-gradient-to-r from-textLeftColor to-textRightColor py-2 px-3 rounded-lg">Privacy-Firendly</span> URL Shortener</h1>
+    </header>
+
+    <main class="mx-4 md:mx-28 lg:mx-72 ">
+
+        <section class="bg-white p-7 mt-10 rounded-lg transition-all ease-linear duration-300">
+
+            <div>
+                <h1 class="font-bold text-3xl text-bgColor pb-6">Link Shortener</h1>
+
+                <div class="input-field-section flex align-center justify-between">
+                    <p class="font-medium text-bgColor">Enter a Link: </p>
+
+                    <input id="myInput" type="search" placeholder="example.com" class="w-7/12 md:w-8/12 lg:w-9/12 py-2 px-2 bg-slate-100 placeholder:text-slate-400 placeholder:font-medium rounded focus:shadow focus:shadow-textLeftColor ease-in duration-100">
+
+                    <button id="input-btn"><i class="btn-hoverDesign  fa-solid fa-arrow-right py-2 px-4 bg-bgColor text-lg text-white rounded ease duration-200"></i></button>
+
+                </div>
+
+                <div class="text-center mt-5">
+                    <button id="copy-link-btn" class="btn-hoverDesign ease duration-200 bg-bgColor px-3 py-2 text-white mx-2 font-medium rounded">Copy Link</button>
+                    <button id="qr-code-btn" class="btn-hoverDesign ease duration-200 bg-bgColor px-3 py-2 text-white font-medium rounded">QR Code</button>
+                </div>
+
+                <div id="show-link" class="text-center font-bold text-xl pt-5 hover:underline">
+                    <!-- // js DOM  -->
+                </div>
+                <div id="QR-code-show" class="flex justify-center">
+                    <!-- QR CODE  -->
+                </div>
+
+                <p class="instraction-text text-sm font-medium mt-4">With this free Link Shortener you can make Links shorter and easier to remember. Just enter a Link into the form and click on the above Button to generate a short Link. When visiting the short-Link, the short-Link will immediately redirect
+                    you to the long Link.</p>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <section class="icons text-center mt-8">
+        <a href="https://www.facebook.com/adaminuldesigner" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+        <a href="https://www.linkedin.com/in/mdaminul1024/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+        <a href="https://github.com/mdaminul1024?tab=repositories" target="_blank"><i class="fa-brands fa-square-github" style="color: #ffffff;"></i></a>
+    </section>
+
+    <section class="last-section mx-3">
+        <p class="terms font-medium text-sm text-center text-white my-4">By using <span class="font-bold">Url Shortener</span> you agree to our <a href="terms.html" target="_blank" class="hover:underline font-bold">Terms of Service & Privacy Policy</a>.</p>
+    </section>
+    <p class="text-center text-white text-sm pb-5">&copy URL Shortener Made By <span class="font-medium">Md Aminul Islam</span></p>
+
+    <script src="static/shortenUrl.js"></script>
+</body>
+
+</html>
