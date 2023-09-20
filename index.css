@@ -14,18 +14,25 @@ input {
 
 #input-btn {
     padding: 7px 13px;
+    border-radius: 4px;
     background: #21253f;
 }
 
 @media screen and (max-width: 500px) {
     input {
-        width: 40%;
+        width: 45%;
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 980px) {
+@media screen and (min-width: 501px) and (max-width: 1024px) {
     input {
         width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    input {
+        width: 72%;
     }
 }
 
