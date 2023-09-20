@@ -24,18 +24,11 @@ input {
     }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1840px) {
     input {
-        width: 80%;
+        width: 73%;
     }
 }
-
-@media screen and (min-width: 1441px) and (max-width: 1800px) {
-    input {
-        width: 90%;
-    }
-}
-
 
 .btn-hoverDesign:hover {
     background-image: linear-gradient(to right, #62b9fa, #e422ea);
