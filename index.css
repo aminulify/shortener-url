@@ -8,6 +8,27 @@
     align-items: center;
 }
 
+input {
+    width: 70%;
+}
+
+#input-btn {
+    padding: 8px 13px;
+    background: #21253f;
+}
+
+@media screen and (max-width: 500px) {
+    input {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 980px) {
+    input {
+        width: 60%;
+    }
+}
+
 .btn-hoverDesign:hover {
     background-image: linear-gradient(to right, #62b9fa, #e422ea);
 }
