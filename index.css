@@ -21,11 +21,17 @@ input {
     input {
         width: 40%;
     }
+    #input-btn {
+    padding: 6px 11px;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 980px) {
     input {
         width: 60%;
+    }
+    #input-btn {
+    padding: 6px 11px;
     }
 }
 
