@@ -12,12 +12,6 @@ input {
     width: 70%;
 }
 
-#input-btn {
-    padding: 7px 13px;
-    border-radius: 4px;
-    background: #21253f;
-}
-
 @media screen and (max-width: 500px) {
     input {
         width: 45%;
