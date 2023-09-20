@@ -30,6 +30,13 @@ input {
     }
 }
 
+@media screen and (min-width: 1401px) and (max-width: 1800px) {
+    input {
+        width: 90%;
+    }
+}
+
+
 .btn-hoverDesign:hover {
     background-image: linear-gradient(to right, #62b9fa, #e422ea);
 }
