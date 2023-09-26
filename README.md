@@ -10,5 +10,5 @@
 <b>Live Link: <a href="https://mdaminul1024.github.io/shortener-url/">Live Link</a><b>
 
 <br>
-<img src="url-cover.jpg" alt="website demo image" style="margin-top:5px;">
+<img src="url-cover.jpg" alt="website demo image">
 
